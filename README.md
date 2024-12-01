@@ -5,9 +5,9 @@ This repository helps you make a graph from historical OSM files and extract top
 You need to **a) install requirements** and **b) download your desired map and feed it to the code**.<br>
 
 **a) Requirements**<br>
-Download and extract this repo on your machine (or clone this repo).<br>
-To install the requirements you need to use `pip install requirements.txt` in your teminal.<br>
-
+1- Download and extract this repo on your machine (or clone this repo).<br>
+2- To install the requirements you need to use `pip install requirements.txt` in your teminal.<br>
+3- run 'make' in your terminal. This will make a Python wrapper for the PyOrca library which is based on : https://github.com/qema/orca-py
 
 **B) Data**<br>
 You need to extract the zip file inside the maps folder which includes historical road network of Estonia from January 2020.
