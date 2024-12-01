@@ -2,15 +2,23 @@
 This repository helps you make a graph from historical OSM files and extract topological feature out of it . 
 
 **How to use** <br>
-You need to **a) install requirements** and **b) download your desired map and feed it to the code**.<br>
+You need to **a) install requirements**, **b) download your desired map and feed it to the code** and **c) run the Jupyter Notebbok**.<br>
 
 **a) Requirements**<br>
 1- Download and extract this repo on your machine (or clone this repo).<br>
 2- To install the requirements you need to use `pip install requirements.txt` in your teminal.<br>
-3- run 'make' in your terminal. This will make a Python wrapper for the PyOrca library which is based on : https://github.com/qema/orca-py
+3- Change your directory to 'lib_orca' folder and then run 'make' in your terminal. This will make [PyORCA](https://github.com/qema/orca-py): ORCA orbit Counting Python Wrapper.
 
 **B) Data**<br>
 You need to extract the zip file inside the maps folder which includes historical road network of Estonia from January 2020.
+
+**C) Run the Notebook**<br>
+To run the notebook, you need to run `jupyter notebook` in your terminal. Then in your browser double click on  [`extractTopology.ipynb`](https://github.com/maraso-TTU/MapTopology/blob/main/extractTopology.ipynb) and run the notebook with your files.
+
+<br>
+
+To make working with the output easier we made a .shp file at the end. In this way you can visulize the graphlet decomposition of all nodes of the map using different GIS tools:
+![visualization](https://github.com/maraso-TTU/MapTopology/blob/main/output_visualization.png)
 
 
 
