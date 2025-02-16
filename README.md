@@ -19,7 +19,7 @@ The zip file includes both a CSV file and a Shapefile for visualization in GIS s
 ## Custom Usage
 If you want to use the code with your own map, please follow the [How to Use](#how-to-use) section.
 
-For information on downloading historical OSM data, see the [section on extracting topological features](#you-can-use-this-code-to-extract-topological-features-of-all-osm-data-across-the-world) at the end of this README.
+For information on downloading historical OSM data, see the [section on downloading historical OSM](#you-can-use-this-code-to-extract-topological-features-of-all-osm-data-across-the-world) at the end of this README.
 
 ## How to use
 You need to **A) install requirements**, **B) download your desired map and put it in the maps folder**, and **C) run the Jupyter Notebook**.
