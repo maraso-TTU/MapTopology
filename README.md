@@ -2,7 +2,7 @@
 This repository helps you make a graphlet decomposition from OSM data.
 
 If you want to only use the final results for extracted graphlets from Estonia historical map of 2020, download the zip file in from output folder.<br>
-If you want to use the code with your desired map, Please follow the how to use section.<br>
+If you want to use the code with your desired map, Please follow the [How to use](#how-to-use) section.<br>
 There is a [section](#you-can-use-this-code-to-extract-topological-features-of-all-osm-data-across-the-world)
  at the end of this readme file helping you on how to download historical data from OSM.
 
