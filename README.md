@@ -7,7 +7,7 @@ You need to **a) install requirements**, **b) download your desired map and feed
 **a) Requirements**<br>
 1- Download and extract this repo on your machine (or clone this repo).<br>
 2- To install the requirements you need to use `pip install requirements.txt` in your teminal.<br>
-3- Change your directory to 'lib_orca' folder and then run 'make' in your terminal. This will make [PyORCA](https://github.com/qema/orca-py): ORCA orbit Counting Python Wrapper.
+3- To install lib_orca you can clone it from [PyORCA](https://github.com/qema/orca-py), put it in the root folder of MapTopology project and rename its folder to  'lib_orca'. Then go to 'lib_orca' folder  in your terminal and then run 'make'. This will make ORbit Counting Algorithm Python wrapper installed in your machine.
 
 **B) Data**<br>
 You need to extract the zip file inside the maps folder which includes historical road network of Estonia from January 2020.
