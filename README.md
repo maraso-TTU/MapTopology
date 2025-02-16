@@ -1,23 +1,38 @@
 # Map Topology
-This repository helps you make a graphlet decomposition from OSM data.
+This repository helps you create a graphlet decomposition from OSM (OpenStreetMap) data.
 
-If you want to only use the final results for extracted graphlets from Estonia historical map of 2020, download the zip file in from output folder.<br>
-If you want to use the code with your desired map, Please follow the [How to use](#how-to-use) section.<br>
-There is a [section](#you-can-use-this-code-to-extract-topological-features-of-all-osm-data-across-the-world)
- at the end of this readme file helping you on how to download historical data from OSM.
+## Quick Start
+If you only want to use the extracted graphlets from Estonia's historical map of 2020, download the [Estonia2020_graphlets.zip](https://github.com/maraso-TTU/MapTopology/blob/main/output/Estonia2020_graphlets.zip) file from the output folder. After unzipping it, you will find the following files:
+```
+.
+├── graphlet.csv
+├── graphlet.cpg
+├── graphlet.dbf
+├── graphlet.prj
+├── graphlet.shp
+└── graphlet.shx
+```
+
+
+The zip file includes both a CSV file and a Shapefile for visualization in GIS software.
+
+## Custom Usage
+If you want to use the code with your own map, please follow the [How to Use](#how-to-use) section.
+
+For information on downloading historical OSM data, see the [section on extracting topological features](#you-can-use-this-code-to-extract-topological-features-of-all-osm-data-across-the-world) at the end of this README.
 
 ## How to use
-You need to **a) install requirements**, **b) download your desired map and put it in the maps folder**, and **c) run the Jupyter Notebook**.
+You need to **A) install requirements**, **B) download your desired map and put it in the maps folder**, and **C) run the Jupyter Notebook**.
 
-### a) Requirements
+### A) Requirements
 1. Download and extract this repo on your machine (or clone this repo).
 2. To install the requirements, use `pip install -r requirements.txt` in your terminal.
 3. To install lib_orca, clone it from [PyORCA](https://github.com/qema/orca-py), put it in the root folder of the MapTopology project, and rename its folder to 'lib_orca'. Then go to the 'lib_orca' folder in your terminal and run 'make'. This will install the Python ORbit Counting Algorithm wrapper on your machine.
 
-### b) Data
+### B) Data
 Extract the zip file inside the maps folder, which includes the historical road network of Estonia from January 2020.
 
-### c) Run the Notebook
+### C) Run the Notebook
 To run the notebook, use `jupyter notebook` in your terminal. Then in your browser, double click on [`extractTopology.ipynb`](https://github.com/maraso-TTU/MapTopology/blob/main/extractTopology.ipynb) and run the notebook with your files.
 
 To make working with the output easier, we create a .shp file at the end. This way you can visualize the graphlet decomposition of all nodes of the map using different GIS tools:
