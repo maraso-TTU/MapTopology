@@ -2,7 +2,7 @@
 This repository helps you create a graphlet decomposition from OSM (OpenStreetMap) data.
 
 ## Quick Start
-If you only want to use the extracted graphlets from Tallinn's historical map of 2020, download all the files in the [output folder](https://github.com/maraso-TTU/MapTopology/blob/main/output/).
+If you only want to use the extracted graphlet decomposition from Tallinn's historical map of 2020, download all the dataset files in the [output folder](https://github.com/maraso-TTU/MapTopology/blob/main/output/).
 
 ```
 .
@@ -34,7 +34,7 @@ The code will use the Shapefile in maps folder which includes the historical roa
 To run the notebook, use `jupyter notebook` in your terminal. Then in your browser, double click on [`extractTopology.ipynb`](https://github.com/maraso-TTU/MapTopology/blob/main/extractTopology.ipynb) and run the notebook with your files.
 
 To make working with the output easier, we create a .shp file at the end. This way you can visualize the graphlet decomposition of all nodes of the map using different GIS tools:
-![visualization](https://github.com/maraso-TTU/MapTopology/blob/main/output_visualization.png)
+![dataset visualization](https://github.com/maraso-TTU/MapTopology/blob/main/output_visualization.png)
 
 ## Providing your own data
 You can download any OSM file (generally any Shapefile which includes road network) and put it in the maps folder and run the code to extract graphlet out of it.
