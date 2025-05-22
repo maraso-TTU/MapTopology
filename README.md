@@ -1,5 +1,6 @@
 # Map Topology
-This repository helps you create a graphlet decomposition from OSM (OpenStreetMap) data.
+### This repository contains graphlet decomposition of city of Tallinn, Estonia based on OpenStreetMap (OSM) data of January 2020<br>
+#### This repository also helps you create a graphlet decomposition from any other OSM data across the world.
 
 ## Quick Start
 If you only want to use the extracted graphlet decomposition from Tallinn's historical map of 2020, download all the dataset files in the [output folder](https://github.com/maraso-TTU/MapTopology/blob/main/output/).
